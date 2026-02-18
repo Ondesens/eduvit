@@ -9,7 +9,7 @@ print("Ваше имя: {}, Фамилия: {}, Возраст: {} лет".forma
 #2. Четность числа
 
 number=input("Введите число: ")
-if number.isdigit()==False:
+if age.lstrip('-').isdigit()==False:
     print("Ошибка: введено не число")
 elif int(number)%2==0 :
     print(f'Число {number} является чётным')
@@ -43,6 +43,7 @@ while True:
     else:
         print(f'В этом числе {len(number)} цифры')
     continue
+
 
 
 
