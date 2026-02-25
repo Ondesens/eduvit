@@ -1,4 +1,4 @@
-str = input("Введите строку: ")
+str = input("Введите строку: ").lower()
 str = str + " "
 s = ""
 ls = []
