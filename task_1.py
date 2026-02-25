@@ -16,4 +16,6 @@ for i in ls:
         for j in range(exp-1):
             i+=i
         ls_2.append(i)
-print(ls_2)
+print(f'Изначальная строка: {ls}')
+print(f'Строка возведённая в степень {exp}: {ls_2}')
+
