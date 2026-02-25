@@ -13,9 +13,6 @@ for i in ls:
     if i.lstrip('-').isdigit() == True:
         ls_2.append(int(i)**exp)
     else:
-        for j in range(exp-1):
-            i+=i
-        ls_2.append(i)
+        ls_2.append(i * exp)
 print(f'Изначальная строка: {ls}')
 print(f'Строка возведённая в степень {exp}: {ls_2}')
-
